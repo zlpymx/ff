@@ -1,0 +1,89 @@
+body{
+    background:url(../未标题-1.png) repeat-x;
+    margin: 0;
+}
+.zhong{
+    height: 30px;
+}
+.zi{
+    color: #ADAAAA;
+    font-size: 13px;
+    float: left;
+    margin-left:5px;
+    margin-right:8px;
+    line-height: 30px;
+}
+.zhong{
+    margin-left: 20%;
+}
+.fu{
+    margin-top: 2px;
+    float: right;
+    margin-left: 15px;
+}
+.fuu{
+    float: right;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+.fuuu{
+    float: right;
+    margin-left: 15px;
+    margin-right: 20%;
+    margin-top: 5px;
+}
+.zii{
+    float: right;
+    color: white;
+    font-size: 13px;
+    margin-left:8px;
+    margin-right:13px;
+    margin-top: 3px;
+    font-weight: bold;
+}
+.ziii{
+    position: relative;
+    float: left;
+    font-size: 20px; 
+    color:#F6F5F5;
+    margin-top:15px;
+}
+.ziiii
+{   position: absolute;
+    font-size: 15px;
+    color: #FFC200;
+    top:95px;
+    left: 420px;
+}
+
+
+.fu1{
+    float: left;
+}
+.k{
+    position: absolute;
+    top:95px;
+    left: 400px;
+    z-index:-1;
+}
+.bag{
+    float: left;
+    margin-left: 20%;
+}
+.wz{
+    position: absolute;
+    top:-15px;
+    left: 400px;
+     z-index:-100;
+}
+.wzz{
+    position: absolute;
+    top:35px;
+    left: 760px;
+
+}
+.wzzz{
+    position: absolute;
+    top:80px;
+    left: 730px;
+}
