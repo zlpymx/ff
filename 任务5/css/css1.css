@@ -1,0 +1,26 @@
+img{
+    width:200px;
+    height: 100px;
+}
+.you{
+    margin-left: 60px;
+}
+.zong{
+    background-color: #F2F4F7;
+}
+.jz{
+    margin:0 auto;
+    width:80%;
+    background-color: white;
+    padding:40px;
+    padding-bottom: 0;
+    position: relative;
+    top:30px;
+    height: 90%;
+}
+body{
+    height: 3000px;
+    margin: 0;
+    padding: 0;
+    background-color: #F2F4F7;
+}

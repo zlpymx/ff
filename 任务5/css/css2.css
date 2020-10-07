@@ -1,0 +1,141 @@
+.head{
+    background-color:#333333 ;
+    height: 55px;
+}
+.zong{
+    width: 65%;
+    margin-left: 20px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color:#DEDEDE ;
+    height: 2270px;
+}
+a li{
+    float: right;
+    margin-top: 20px;
+    color: black;
+}
+.head img{
+    float: left;
+    margin-top: 0;
+}
+a li span{
+    color: white;
+    margin-right: 15px;
+}
+.y{
+    color: grey;
+}
+.jz{
+    margin: 0 auto;
+    width: 95%;
+    background-color: white;
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+p span{
+    font-weight: bolder;
+}
+.zong img{
+    width: 100px;
+    height: 100px;
+}
+ul li{
+    list-style: none ;
+}
+.border{
+    border: black 1px solid;
+    width:100px;
+    height: 100px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 40px;
+
+}
+.no{
+   height: 70px !important;
+   width: 60px !important;
+   margin: 0 auto;
+}
+th{
+    background-color: #333333;
+    color:white;
+
+}
+.biu{
+    background-color:#CCCCCC ;
+    font-weight: bolder;
+}
+td{
+    border-top: 1px solid #CBCBCB;
+    border-left: 1px solid #CBCBCB;
+    border-spacing: 0;
+}
+table {
+    border-bottom: 1px solid #CBCBCB;
+    border-right: 1px solid #CBCBCB;
+    border-spacing: 0;
+    margin-bottom: 25px;
+    width: 70%;
+}
+th{
+    border-top: 1px solid #CBCBCB;
+    border-left: 1px solid #CBCBCB;
+    border-spacing: 0;
+}
+h1{
+   padding-top: 0px;
+}
+.jz2{
+float: right;
+width:30%;
+    background-color: white;
+    padding-top: 15px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    margin-top: 25px !important;
+    margin-right: 20px;
+    overflow: hidden;
+}
+.jz2 div{
+    margin-top: 5px;
+}
+.jz3{
+    margin-left: 125px;
+}
+.jz2 .jz3 p {
+    color: #DADADA;
+    position: relative;
+    left: 25%;
+    margin: 8px;
+    overflow: hidden;
+}
+.jz2 .jz3 form{
+    position: relative;
+    left: 12%;
+    overflow: hidden;
+}
+button{
+    width: 70%;
+    position: relative;
+    margin-top: 25px;
+    height: 30px;
+    color: blanchedalmond;
+    background-color: blue;
+    border-radius: 9px;
+    left: -12.5%;
+    overflow: hidden;
+}
+.jz2 .jz3 form span{
+    position: relative;
+    top: -50px;
+}
+.pic{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width:750px;
+    margin-left: 30px;
+}
