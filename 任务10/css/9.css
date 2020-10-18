@@ -1,0 +1,55 @@
+.one{
+    border: 1px #f00 solid;
+    height: 120px;
+}
+.content div{
+    width: 150px;
+    padding: 20px;
+}
+.two{
+    border: 1px #f00 solid;
+    height: 100px;
+}
+.thr{
+    border: 1px #f00 solid;
+    height: 40px;
+}
+.for{
+    height: 200px;
+    border: 1px #219 solid;
+}
+@media (min-width: 640px) {
+    .content{
+        width: 1100px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0 auto;
+        border: solid 1px black;
+    }
+}
+@media (max-width: 640px) {
+    .content{
+        height: 400px;
+        width: 630px;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        flex-flow: wrap;
+        justify-content: space-around;
+        border: solid 1px black;
+    }
+    .for{order: 1;}
+    .two{
+        order:3;
+    }
+    .one{
+        order: 2;
+    }
+    .thr{
+        order:4;
+        position: relative;
+        left: -33%;
+    }
+}

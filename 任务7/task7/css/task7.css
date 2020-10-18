@@ -1,0 +1,135 @@
+body{
+    margin: 0;
+    padding: 0;
+    min-width: 800px;
+    max-width: 100%;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    height: 28px;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+.header .big img{
+    float: left;
+}
+.header p{
+    margin:0;
+margin-left: 50px;
+font-size: 20px;
+}
+.big{
+    width: 200px;
+}
+.header-right{
+    padding-right: 40px;
+}
+.header-right a{
+    text-decoration: none;
+    padding-right: 20px;
+    color: grey;
+}
+.header-right span{
+    color: #E6504F;
+}
+.header-right img{
+    vertical-align: middle;
+}
+.first{
+    padding-top: 20px;
+    height:700px;
+    overflow: hidden;}
+.first img{
+    width:100%;
+}
+.zhao{
+    margin-top: -2px;
+    width:auto;
+    position: relative;
+    top:-952px;
+    height:703px;
+}
+.first p{
+    font-size: 55px;
+    color: #FCFCFE;
+    padding-left: 200px;
+    position: relative;
+    top:px;
+}
+.first span{
+    font-size: 20px;
+    color: #FCFCFE;
+    position: relative;
+    top:20px;
+}
+.first button{
+    background-color: #E8504F;
+    position: relative;
+    top:-1400px;
+    height:50px;
+    color:  #FCFCFE;
+    width:250px;
+    border: none;
+    font-size: 28px;
+    margin-left: 200px;
+}
+.pic_letter{
+    display: grid;
+    grid-row-gap:20px;
+    grid-auto-flow: column;
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+.pic_letter img{
+    margin-left: 150px;
+    margin-bottom: 20px;
+}
+.pic_letter p{
+    text-align: center;
+    border-right: 2px solid #B7B7B7;
+    padding-bottom: 15px;
+}
+.third{
+    background-color: #EDEDED;
+    height:100%;
+}
+.third img{
+    position: relative;
+    left:48%;
+    padding-top: 80px;
+}
+.third p{
+    font-size: 45px;
+    color: #A4A4A4;
+    text-align: center;
+    padding-top: 30px;
+    margin:0;
+    padding-bottom: 80px;
+}
+.fourth {
+    height:500px;
+}
+.fourth img{
+    width:100%;
+    position: relative;
+    top:-685px;
+}
+.zhao2{
+    width:auto;
+    position: relative;
+    top:-385px;
+}
+.fourth p{
+    color:#FCFCFE ;
+    position: relative;
+    top:-1450px;
+    font-size: 24px;
+    text-align: center;
+}
+.fourth span{
+    font-size: 15px;
+}
+.fifth img{
+    position: relative;
+}

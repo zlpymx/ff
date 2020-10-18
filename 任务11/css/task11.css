@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@media (max-width:768px) {
+        .container {
+           width: auto;
+         }
+         .one{
+           width: 20%;
+         }
+         .try{
+           width: 33.33%;
+         } 
+         .pic{
+            width: 100%;
+          }  
+        .san{
+            width: 33.33%;
+        } 
+       }
+.header {
+    height:70px;
+    width:auto;
+    background-color: #99DDDD;
+}
+.return {
+    float:left;
+    height:26.67px;
+   position: relative;
+   top:20px;
+   left:20px;
+}
+.return p{
+    font-size: 20px;
+    color: #FFFFFF;
+}
+.name {
+    float:left;
+     position: relative;
+     left:32%;
+   top:15px;
+    height:34px;
+}
+.name p{
+    font-size: 26px;
+    color: #FFFFFF;
+}
+.navigation {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.navigation span {
+    padding-bottom: 8px;
+    border-bottom: 4px solid #99DDDD;
+}
+.pic {
+    margin-top: 12px;
+}
+.pic img{
+    width:100%;
+}
+.tag {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    border-bottom:2px solid #E4E4E4;
+}
+.tag img {
+    width:50%;
+    position: relative;
+    left:25%;
+}
+.tag p{
+    text-align: center;
+}
+.fenlan {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
+.fenlan img{
+    width:70%;
+}
+.fenlan h3{
+    color: #626262;
+    padding-top: 10px;
+}
+.try {
+    border-right: 2px solid #E3E3E3;
+    margin-top: 20px;
+    text-align: center;
+}
+.space {
+    height:20px;
+    background-color: #F0F0F0;
+    width:auto;
+}
+.hh {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 20px;
+    text-align: center;
+    padding-bottom: 10px;
+
+}
+.mo1 h1{
+    color: #6C6C6C;
+    border-bottom: 2px solid #E3E3E3 ;
+    width:auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+.mo1 img{
+    width:80%;
+}
+.hh p{
+    text-align: center;
+}
+.san p{
+    padding-top: 13px;
+    padding-bottom: 13px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    margin-right: 10px;
+    background-color: #F6F6F6;
+}
+.mo3{
+    padding-top: 20px;
+    height: 120px;
+}
+.mo3 img{
+    width:28%;
+    float: left;
+    padding-left: 20px;
+}
+.mo3 h1{
+    font-size: 18px;
+    float: left;
+    border: none;
+    padding-top: 20px;
+}
+.mo3 h3{
+    font-size: 13px;
+    margin-left: 15px;
+    float: left;
+    padding-top: 50px;
+    color: #CCCFCD;
+}
+.flx{
+    text-align: center;
+    display: flex;
+    flex-direction: row !important;
+    justify-content: space-around;
+}
+.flx img{
+    width: 105px;
+    height: 105px;
+}
+.mo4{
+    padding-top: 20px;
+}
