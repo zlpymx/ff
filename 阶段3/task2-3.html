@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+     <meta charset="utf-8">
+    <title>task2-3</title>
+     <style>
+         span {
+           display: inline-block;
+           margin-right: 10px;
+            padding:10px;
+            height: 40px;
+            line-height: 40px;
+             background-color: greenyellow;
+         }
+         button{
+             margin-right: 20px;
+            height: 40px;
+            line-height: 20px;
+            background-color: mediumseagreen;
+            color: mediumvioletred;
+         }
+     </style>
+   </head>
+ <body>
+           
+     <textarea id="text"></textarea>
+     <button id="jia">入</button>
+     <button id="search">查询</button>
+     <input type="text" id="serr"/>
+     <div id="duilie">
+     </div>
+ <script type="text/javascript">
+ 
+ var add = document.getElementById("jia"),
+	search = document.getElementById("search"),
+	duilie = document.getElementById("duilie"),
+	dataInput = document.getElementById("text");
+	serr = document.getElementById("serr");
+var dataStore = [];
+
+function addData() {
+	var num = dataInput.value.trim();
+	var arrWord = num.split(/[^0-9a-zA-Z\u4e00-\u9fa5]+/).filter(function(item){
+        if (item !== null && item.length > 0) {
+            return true;
+        } else {
+            return false;
+        }
+    });
+    dataStore = dataStore.concat(arrWord);
+}
+//渲染页面
+function renderList(arr) {
+	var textvalue = "";
+	for(var i = 0; i < arr.length; ++i){
+		textvalue += "<span>" + arr[i]+ "</span>";
+	}
+	duilie.innerHTML = textvalue;
+}
+function init() {
+	add.addEventListener("click",function()
+	{
+		addData();
+		renderList(dataStore);
+	},false);
+	
+	search.addEventListener("click",function()
+	{
+		renderList(dataStore);
+		var data = serr.value.trim();
+		if(!data){
+			alert("请输入关键词！");
+			return;
+		}
+		var test = false;
+		var dataList = duilie.getElementsByTagName("span");
+		for(var i = 0; i < dataList.length; ++i){
+			if(dataList[i].innerText.indexOf(data) > -1){
+				dataList[i].style.color = "black";
+				dataList[i].style.backgroundColor = "red";
+				test = true;
+			}
+		}
+		if(!test){
+			alert("can't find!")
+		}
+	},false);
+}
+
+ init();
+ </script>
+ </body>
+ </html>
